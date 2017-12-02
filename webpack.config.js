@@ -45,7 +45,7 @@ module.exports = {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader', 'postcss-loader'],
+          use: ['css-loader', 'postcss-loader', 'sass-loader'],
         }),
       },
       {
@@ -82,7 +82,7 @@ module.exports = {
       'window.jQuery': 'jquery',
       Popper: ['popper.js', 'default'],
     }),
-    new ExtractTextPlugin('bundle.css'),
+    new ExtractTextPlugin('bundle.[hash].css'),
     new webpack.HotModuleReplacementPlugin(),
   ],
   devtool: 'source-map',

@@ -10,7 +10,7 @@ This boilerplate provides an automatic web development environment with
 ## Automatic Settings
 
 * transpile for CSS (SCSS -> CSS)
-* attache CSS (normalize.css & autoprefixer & bootstrap4)
+* attache CSS (autoprefixer & bootstrap4)
 * lint for CSS (stylelint)
 * transpile for JS (React -> ES5)
 * lint for JS (ESLint & Flow)
